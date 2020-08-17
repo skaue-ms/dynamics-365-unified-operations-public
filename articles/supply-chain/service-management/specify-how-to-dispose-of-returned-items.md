@@ -4,7 +4,7 @@
 title: Specify how to dispose of returned items 
 description: Specify how to dispose of returned items.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: InventQuarantineOrder
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -180,9 +180,9 @@ For each disposition code that you define, you must select a disposition action.
 
 ## See also
 
-[Quarantine order (form)](https://technet.microsoft.com/en-us/library/aa554073(v=ax.60))
+[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
-[Disposition codes (form)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))
+[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
   
 

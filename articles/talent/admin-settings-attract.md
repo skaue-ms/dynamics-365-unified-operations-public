@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Admin settings in Attract
-description: This topic explains how to enable feature functionality for organizations and users in Attract.
-author: 
+title: Configure company information in Attract
+description: This topic explains how to configure company information and branding for Microsoft Dynamics 365 Talent - Attract.
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -17,23 +17,24 @@ ms.search.form:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 # ms.tgt_pltfrm: 
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 
 ---
 
-# Admin settings in Attract
-[!include[banner](../includes/banner.md)]
+# Configure company information in Attract
 
-The Admin center in Microsoft Dynamics 365 for Talent: Attract contains configuration settings, integration options, and setup options for the Attract application.
+[!include [banner](includes/banner.md)]
+
+The Admin center in Microsoft Dynamics 365 Talent: Attract contains configuration settings, integration options, and setup options for the Attract application.
 
 ## Company information
 
@@ -53,11 +54,11 @@ As new features are added, they might be released in a public preview. Public pr
 
 ## Template management
 
-A process template contains all the activities that should be included as part of the hiring process for a job. Your organization can allow either all team members or just admins to create hiring process templates. To allow team members to create their own hiring process templates, turn on the Template management functionality. For more information about process templates, see [Process templates in Attract](./process-templates-attract.md).
+A process template contains all the activities that should be included as part of the hiring process for a job. Your organization can allow either all team members or just admins to create hiring process templates. To allow team members to create their own hiring process templates, turn on the Template management functionality. For more information about process templates, see [Create a process template in Attract](./process-templates-attract.md).
 
 ## Email template settings
 
-Organizations can create email templates for various scenarios. You can select the header image to include in the email templates. The selected header will then appear in all email templates. In the template footer, you can add a link to your organization's privacy statement and terms of use for communications. For more information, see [Email templates in Attract](./email-templates.md).
+Organizations can create email templates for various scenarios. You can select the header image to include in the email templates. The selected header will then appear in all email templates. In the template footer, you can add a link to your organization's privacy statement and terms of use for communications. For more information, see [Email templates](./email-templates.md).
 
 ## Offer process
 

@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Outbound process 
+title: Outbound process overview
 description: This topic provides an overview of the outbound process in Inventory management. 
 author: perlynne
-manager: AnnBe
-ms.date: 10/04/2017
+manager: tfehr
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod:
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistrati
 # ROBOTS:
 audience: Application User
 # ms.devlang:
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm:
 ms.custom: 274363
@@ -30,7 +30,7 @@ ms.search.validFrom: 2016-02-28
 
 ---
 
-# Outbound process
+# Outbound process overview
 
 [!include [banner](../includes/banner.md)]
 

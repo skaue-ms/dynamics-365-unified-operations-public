@@ -4,7 +4,7 @@
 title: View stage reason codes 
 description: View and modify the list of stage reasons for a service order.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMAServiceOrderTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -45,7 +45,7 @@ View and modify the list of stage reasons for a service order. Use stage reasons
 
 ## See also
 
-[Stage reasons (form)](https://technet.microsoft.com/en-us/library/aa582897\(v=ax.60\))
+[Stage reasons (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))
 
   
 

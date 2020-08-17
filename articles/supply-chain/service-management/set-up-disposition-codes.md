@@ -4,7 +4,7 @@
 title: Set up disposition codes   
 description: You can set up disposition codes to specify how to process an item that is returned by a customer.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: ReturnDispositionCode
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -37,7 +37,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 You can set up disposition codes to specify how to process an item that is returned by a customer. For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer. For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).
 
-You can also set up a reason code to help explain why an item was returned. For more information about reason codes, see [Set up return reason code](set-up-return-reason-code.md).
+You can also set up a reason code to help explain why an item was returned. For more information about reason codes, see [Set up return reason codes](set-up-return-reason-code.md).
 
 1.  Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.
 
@@ -51,13 +51,13 @@ You can also set up a reason code to help explain why an item was returned. For 
 
 ## See also
 
-[Disposition codes and return reason codes](disposition-and-return-reason-codes.md)
+[Customer returns overview](disposition-and-return-reason-codes.md)
 
-[Disposition codes (form)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))
+[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
-[Auto charges (form)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\))
+[Auto charges (form)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))
 
-[External codes (form)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))
+[External codes (form)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))
 
   
 

@@ -4,8 +4,8 @@
 title: Change the ownership of consignment inventory based on production demand
 description: This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production. 
 author: perlynne
-manager: AnnBe 
-ms.date: 08/29/2018
+manager: tfehr 
+ms.date: 08/14/2019
 ms.topic: business-process 
 ms.prod:  
 ms.service: dynamics-ax-applications 
@@ -16,7 +16,7 @@ ms.technology:
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate   
 audience: Application User 
 # ms.devlang:  
-ms.reviewer: shylaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations 
 # ms.tgt_pltfrm:  
 # ms.custom:  
@@ -28,10 +28,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ---
 # Change the ownership of consignment inventory based on production demand
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production. This change of ownership is done by creating and posting an inventory ownership change journal. The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand. Typically, a shop floor supervisor performs this task. You can use this procedure in the USMF demo data company or on your own data. If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material. This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.
 
+> [!NOTE]
+> Outbound consignment processes are not supported out-of-the-box and automatic ownership journal processing is not supported.
 
 ## Create an inventory ownership journal
 1. Go to Inventory management > Journal entries > Items > Inventory ownership change.

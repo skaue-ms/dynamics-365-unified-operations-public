@@ -4,7 +4,7 @@
 title: Inventory journals
 description: This topic describes how you can use inventory journals to post various types of physical inventory transactions.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod:
@@ -17,7 +17,7 @@ ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, Inv
 # ROBOTS:
 audience: Application User
 # ms.devlang:
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 
 ms.search.scope: Core, Operations, Retail
 
@@ -36,11 +36,9 @@ ms.dyn365.ops.version: AX 7.0.0
 
 [!include [banner](../includes/banner.md)]
 
-[!include [retail name](../includes/retail-name.md)]
-
 This topic describes how you can use inventory journals to post various types of physical inventory transactions.
 
-The inventory journals in Microsoft Dynamics 365 for Finance and Operations are used to post physical inventory transactions of various types, such as the posting of issues and receipts, inventory movements, the creation of bills of materials (BOMs), and the reconciliation of physical inventory. All these inventory journals are used in a similar way, but they are divided into different types.
+The inventory journals in Supply Chain Management are used to post physical inventory transactions of various types, such as the posting of issues and receipts, inventory movements, the creation of bills of materials (BOMs), and the reconciliation of physical inventory. All these inventory journals are used in a similar way, but they are divided into different types.
 
 ## Types of inventory journals
 The following types of inventory journals are available:
@@ -75,7 +73,7 @@ When you report a BOM as finished, you can create a BOM journal. By using a BOM 
 
 ### Item arrival
 
-You can use the item arrival journal to register the receipt of items (for example, from purchase orders). An item arrival journal can be created as part of arrival management from the **Arrival overview** page, or you can manually create a journal entry from the **Item arrival** page. If you enable the item arrival journal name to check for picking locations, Finance and Operations looks for a location for received items and, if there is room, generates location destinations for the incoming items.
+You can use the item arrival journal to register the receipt of items (for example, from purchase orders). An item arrival journal can be created as part of arrival management from the **Arrival overview** page, or you can manually create a journal entry from the **Item arrival** page. If you enable the item arrival journal name to check for picking locations, Supply Chain Management looks for a location for received items and, if there is room, generates location destinations for the incoming items.
 
 ### Production input
 
@@ -83,7 +81,7 @@ Production input journals work like the item arrival journals but are used for p
 
 ### Counting
 
-Counting journals let you correct the current on-hand inventory that is registered for items or groups of items, and then post the actual physical count, so that you can make the adjustments that are required to reconcile the differences. You can associate counting policies with counting groups to help group items that have various characteristics, so that those items can be included in a counting journal. For example, you can set up counting groups to count items that have a specific frequency, or to count items when stock falls to a particular level. For information about how to define counting groups, see [Define inventory counting processes (Task guide)](tasks/define-inventory-counting-processes.md).
+Counting journals let you correct the current on-hand inventory that is registered for items or groups of items, and then post the actual physical count, so that you can make the adjustments that are required to reconcile the differences. You can associate counting policies with counting groups to help group items that have various characteristics, so that those items can be included in a counting journal. For example, you can set up counting groups to count items that have a specific frequency, or to count items when stock falls to a particular level. For information about how to define counting groups, see [Define inventory counting processes](tasks/define-inventory-counting-processes.md).
 
 ### Tag counting
 
@@ -110,7 +108,7 @@ Data entities support the following types of integration scenarios:
 For more information, see [Data entities](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Not all inventory journals are OData-enabled, therefore you cannot use the Excel data connector to get data published, updated, and imported back to Dynamics 365 for Finance and Operations. 
+> Not all inventory journals are OData-enabled, therefore you cannot use the Excel data connector to get data published, updated, and imported back to Supply Chain Management. 
 
 Another difference between the journal data entities is the ability to use composite entities that include both the header and line data. Currently, you can use the composite entities for:
 -   Inventory adjustment journal

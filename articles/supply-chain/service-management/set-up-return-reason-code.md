@@ -4,7 +4,7 @@
 title:  Set up return reason codes
 description:  Set up return reason code groups. 
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -60,9 +60,9 @@ This procedure helps you set up return reason codes that you can use to indicate
 
 ## See also
 
-[Return reason code groups (form)](https://technet.microsoft.com/en-us/library/hh209604\(v=ax.60\))
+[Return reason code groups (form)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))
 
-[Return reason codes (form)](https://technet.microsoft.com/en-us/library/hh227372\(v=ax.60\))
+[Return reason codes (form)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))
 
  
 

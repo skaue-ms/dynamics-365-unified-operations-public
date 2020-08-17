@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Requests for quotation (RFQs)
+title: Requests for quotation (RFQs) overview
 description: This topic provides an overview of requests for quotation (RFQs). Organizations issue RFQs when they want to receive competitive offers from several vendors for the items or services that they must purchase.
 author: mkirknel
-manager: AnnBe
-ms.date: 06/21/2018
+manager: tfehr
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, P
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 2154
@@ -30,7 +30,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ---
 
-# Requests for quotation (RFQs)
+# Requests for quotation (RFQs) overview
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,9 +70,9 @@ reply sheet that the vendor can fill in.
 
 This topic covers the process for handling RFQs when vendor collaboration isn't
 used. If your system is set up for vendor collaboration, vendors can enter bids
-directly in Microsoft Dynamics 365 for Finance and Operations. For more
+directly in Supply Chain Management. For more
 information, see [Vendor collaboration with
-customers](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) and [Vendor collaboration with external vendors](vendor-collaboration-work-external-vendors.md).
+customers](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) and [Vendor collaboration with external vendors](vendor-collaboration-work-external-vendors.md).
 
 If you must amend an RFQ after you send it, you can resend the RFQ to vendors
 when you've finished by using the two amendment actions: Create and Finalize.+
@@ -84,11 +84,6 @@ If a second iteration of a reply from a vendor is required, select **Return** on
 the **Request for quotation** page. The Return action generates a new journal
 and a report that will be printed, archived, and sent according to your Printing
 settings.
-
-> [!NOTE]
-> The name of the **Request for quotation** page has been changed. In earlier releases
-of Dynamics 365 for Finance and Operations, this page is called **Request for
-quotations reply**.
 
 If you added scoring criteria to your RFQ case, the RFQ will have a scoring
 panel where you can enter the scores. The total scores will appear on the RFQ
@@ -317,7 +312,7 @@ use the amendment process to notify vendors about changes to the RFQ case. This
 process helps prevent the situation where vendors bid on an outdated RFQ case
 while their bid is in progress. For more information about vendor collaboration,
 see [Vendor collaboration with external
-vendors](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+vendors](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 If you want to invite additional vendors to bid, and no changes have been made
 to the RFQ case, you can use the **Send** button. The vendors that you added

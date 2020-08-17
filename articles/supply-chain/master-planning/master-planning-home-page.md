@@ -4,7 +4,7 @@
 title: Master planning home page
 description: Master planning allows companies to determine and balance the future need for raw materials and capacity to meet company goals. 
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: ReqCreatePlanWorkspace
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -43,9 +43,9 @@ Master planning uses the information to calculate the requirements and generate 
 
 The three main planning processes are:
 
--  **Master planning** - The Master plan calculates net requirements. It is based on actual current orders and enables companies to control inventory replenishment on a short-term, day-to-day basis. Another term to describe it is the *Net requirements plan*. For more information, see [Master planning](master-plans.md). 
+-  **Master planning** - The Master plan calculates net requirements. It is based on actual current orders and enables companies to control inventory replenishment on a short-term, day-to-day basis. Another term to describe it is the *Net requirements plan*. For more information, see [Master plans overview](master-plans.md). 
 
--  **Forecast planning** - The Forecast schedule calculates gross requirements. It is based on future projections (or forecasts), and enables companies to conduct long-term planning of materials and capacity. For more information, see [Forecast planning](introduction-demand-forecasting.md). 
+-  **Forecast planning** - The Forecast schedule calculates gross requirements. It is based on future projections (or forecasts), and enables companies to conduct long-term planning of materials and capacity. For more information, see [Demand forecasting overview](introduction-demand-forecasting.md). 
 
 -  **Intercompany master planning** - The Intercompany master plan calculates net requirements across legal entities. It connects demand and supply between companies not only for short term, firm demand and supply but also for long-term, planned (that is not yet firmed) demand and supply. For more information, see [Intercompany master planning](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (eLearning) (requires CustomerSource account). 
 
@@ -61,13 +61,13 @@ The following learning map shows the major concepts and tasks that make up the f
 
 ## Quick links
 
-- [Master plans](master-plans.md)  
+- [Master plans overview](master-plans.md)  
 - [Generate a constrained plan](./tasks/constrained-plan.md)
 - [Create a material plan for co-products](./tasks/create-material-plan-co-products.md)
-- [Master planning and multisite functionality](master-plan-multisite-functionality.md)
+- [Master planning and multisite functionality overview](master-plan-multisite-functionality.md)
 - [Create an intercompany plan](./tasks/create-intercompany-plan.md)
 - [Demand forecasting overview](introduction-demand-forecasting.md)
-- [Reduction keys](reduction-keys.md)
+- [Forecast reduction keys](reduction-keys.md)
                                   
 ## Additional resources
 
@@ -79,7 +79,7 @@ You can find opinions, news, and other information about Master planning and oth
 [Dynamics AX Manufacturing R&D Team blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### Task guides
-Additional help is available as task guides inside Finance and Operations. To access task guides, click the **Help** button on any page.
+Additional help is available as task guides. To access task guides, click the **Help** button on any page.
 
 ### Webinars
 [Use Azure machine learning for demand forecasting](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

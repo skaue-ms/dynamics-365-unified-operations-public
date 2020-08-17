@@ -4,8 +4,8 @@
 title: Set up mobile devices for warehouse work
 description: This topic describes how to configure the menu items that warehouse workers use to perform work on a mobile device.
 author: MarkusFogelberg
-manager: AnnBe
-ms.date: 09/28/2018
+manager: tfehr
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: WHSRFMenuItem
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 29941
@@ -36,18 +36,22 @@ ms.dyn365.ops.version: AX 7.0.0
 
 This topic describes how to configure the menu items that warehouse workers use to perform work on a mobile device.
 
-**Note:** This topic applies to features in Warehouse management. It doesn't apply to features in Inventory management. The menu items that appear on the menus on a warehouse mobile device are configured on the **Mobile device menu items** page. Because the menu items can be put onto different menus, it's easy to configure menu structures so that only specific types of work are exposed to specific users. You can configure menu items to perform the following tasks:
+> [!NOTE]
+> This topic applies to features in Warehouse management. It doesn't apply to features in Inventory management. The menu items that appear on the menus on a warehouse mobile device are configured on the **Mobile device menu items** page. Because the menu items can be put onto different menus, it's easy to configure menu structures so that only specific types of work are exposed to specific users. You can configure menu items to perform the following tasks:
 
 -   Process an inquiry or perform an activity, such as printing a label, generating license plate numbers, starting a production order, or quickly looking up information about items in a location.
 -   Create work that will be performed through another process. For example, receiving an item for a purchase order can create put-away work for another worker.
 -   Perform work that was created by another process (existing work), such as put-away work that was created when an item was received for a purchase order.
 
-To create a menu item for an activity or inquiry, set the **Mode** field to **Indirect**. A list of **Activity code** options then becomes available, so that you can select the type of inquiry or activity that the menu item is for. To create a menu item to generate warehouse work, set the **Mode** field to **Work**. A list of **Work creation process** options then becomes available. To create a menu item to process existing warehouse work, set the **Mode** field to **Work**, and then set the **Use existing work** option to **Yes**. **Note:** Additional fields might be available for menu items, depending on the mode that you select for the menu item, and whether the menu item is used to perform existing work. For information about the additional field selections, see the “Additional menu item options” section later in this article.
+To create a menu item for an activity or inquiry, set the **Mode** field to **Indirect**. A list of **Activity code** options then becomes available, so that you can select the type of inquiry or activity that the menu item is for. To create a menu item to generate warehouse work, set the **Mode** field to **Work**. A list of **Work creation process** options then becomes available. To create a menu item to process existing warehouse work, set the **Mode** field to **Work**, and then set the **Use existing work** option to **Yes**. 
+
+> [!NOTE]
+> Additional fields might be available for menu items, depending on the mode that you select for the menu item, and whether the menu item is used to perform existing work. For information about the additional field selections, see the “Additional menu item options” section later in this article.
 
 ## Configure menu items for activities and inquiries
 If the **Mode** field for a menu item is set to **Indirect**, you can create a menu item to perform a general activity or inquiry that doesn't create work. Examples include reprinting license plate labels and an inquiry about the items in a location. The following table lists the options that are available.
 
-| Option                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Option                      | Description                                                                                                                                                                           |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | None                        | This default value doesn't enable an activity or inquiry.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | About                       | View information about the system, such as the version number, the warehouse ID, and the worker who is currently logged on.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -59,7 +63,7 @@ If the **Mode** field for a menu item is set to **Indirect**, you can create a m
 | Production last pallet      | Indicate that the last pallet of items has been produced for a production order, and that the status of the production order must be updated to **Reported as finished**. The status of the raw materials that were not consumed during production is change back from **Picked** to **On order**, and the items can be returned to inventory.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Item inquiry                | Scan an item to determine where it is in the warehouse. The inquiry returns all locations and quantities for the scanned item.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Reprint label               | Reprint a license plate label.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| License plate build         | Create a parent license plate by combining multiple license plates in the same location. This option is useful if you move multiple license plates at the same time. After the parent license plate is moved, you must perform a license plate break before you can pick items from each license plate. **Tip:** To move a parent license plate, you must use a mobile device that is configured to create work for movements.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| License plate build         | Create a parent license plate by combining multiple license plates in the same location. This option is useful if you move multiple license plates at the same time. After the parent license plate is moved, you must perform a license plate break before you can pick items from each license plate. <p></p>**Tip:** To move a parent license plate, you must use a mobile device that is configured to create work for movements.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | License plate break         | Break up a license plate build so that you can pick items from the license plates that were in the build.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Driver check in             | If you’re using Transportation management, register the arrival of a driver by scanning the outbound load ID, appointment ID, or shipment ID. For this option a load must be assigned to the appointment, and the status of the load must be **Loaded**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Driver check out            | Register that a driver has completed his or her appointment.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -96,11 +100,11 @@ You can set up a menu item that creates work for another worker after an initial
 </tr>
 <tr>
 <td>License plate receiving</td>
-<td>Receive an inbound load by using the license plate ID.</td>
+<td>Receive an inbound advance ship notice (ASN) by using the license plate ID.</td>
 </tr>
 <tr>
 <td>License plate receiving and put away</td>
-<td>Receive and put away an inbound load by using the license plate ID.</td>
+<td>Receive and put away an inbound advance ship notice (ASN) by using the license plate ID.</td>
 </tr>
 <tr>
 <td>Load item receiving</td>
@@ -111,7 +115,7 @@ You can set up a menu item that creates work for another worker after an initial
 <td>Register the receipt of a load by using the load ID, and put the items away. The item number and product dimensions match the receipt to the purchase order lines. The same worker performs both actions.</td>
 </tr>
 <tr>
-<td>Return order</td>
+<td rowspan="2">Return order</td>
 <td>Return order receiving</td>
 <td>Register the receipt of a quantity of an item by registering the RMA number, and create put-away work for another worker.</td>
 </tr>
@@ -120,7 +124,7 @@ You can set up a menu item that creates work for another worker after an initial
 <td>Register the receipt of a quantity of an item by registering the RMA number, and put the items away. The same worker performs both actions.</td>
 </tr>
 <tr>
-<td>Transfer order</td>
+<td rowspan="6">Transfer order</td>
 <td>Transfer order item receiving</td>
 <td>Register the receipt of a quantity of an item, and create put-away work for another worker.
 
@@ -141,7 +145,15 @@ You can set up a menu item that creates work for another worker after an initial
 <td>Register the receipt of a quantity of an item, and put the items away. The same worker performs both actions.</td>
 </tr>
 <tr>
-<td>Production</td>
+<td>License plate receiving</td>
+<td>Receive an inbound advance ship notice (ASN) by using the license plate ID.</td>
+</tr>
+<tr>
+<td>License plate receiving and put away</td>
+<td>Receive and put away an inbound advance ship notice (ASN) by using the license plate ID.</td>
+</tr>
+<tr>
+<td rowspan="4">Production</td>
 <td>Report as finished</td>
 <td>Register a quantity of a finished item that has been finished for a production, and create put-away work for another worker. The quantity can be some or all of the quantity that was planned for production.</td>
 </tr>
@@ -158,7 +170,7 @@ You can set up a menu item that creates work for another worker after an initial
 <td>Indicate that a kanban is completed, and put away the items. The same worker performs both actions.</td>
 </tr>
 <tr>
-<td>Inventory</td>
+<td rowspan="5">Inventory</td>
 <td>Movement</td>
 <td>Register that items have been moved from one location to another. The worker specifies the location that the items are moved from and where they are moved to.</td>
 </tr>
@@ -168,7 +180,7 @@ You can set up a menu item that creates work for another worker after an initial
 </tr>
 <tr>
 <td>Movement by template</td>
-<td>Move items from one location to another in a semi-automated manner. The worker selects the location to move items from, and Finance and Operations uses the location directive to determine where to move the items to.</td>
+<td>Move items from one location to another in a semi-automated manner. The worker selects the location to move items from, the system uses the location directive to determine where to move the items to.</td>
 </tr>
 <tr>
 <td>Warehouse transfer</td>
@@ -181,7 +193,7 @@ You can set up a menu item that creates work for another worker after an initial
 <td>Use this option when you&#39;re setting up your warehouse for the first time. Scan all the license plates in all locations in the warehouse. The locations must be license plate–controlled. You can&#39;t use this option if <strong>Serial number</strong> or <strong>Batch number</strong> is listed above <strong>Location</strong> in the inventory reservation hierarchy.</td>
 </tr>
 <tr>
-<td>Cycle count</td>
+<td rowspan="3">Cycle count</td>
 <td>Adjustment in</td>
 <td>Increase the quantity of items in inventory. Specify the location, license plate, item, quantity, unit of measure, and status.</td>
 </tr>
@@ -217,7 +229,7 @@ In addition to setting up menu items to create warehouse work, you can set up me
 </tr>
 <tr class="even">
 <td>System directed</td>
-<td>Microsoft Dynamics 365 for Finance and Operations controls the type of work that is assigned to a worker and the order that the worker performs the work in. When you select this option, you can click <strong>System-directed work</strong> on the Action pane to open the <strong>System-directed sorting order</strong> page, where you can set up sorting criteria for the work. The sorting criteria control the order that the worker performs the work in. You can add as many criteria as you require.</td>
+<td>Supply Chain Management controls the type of work that is assigned to a worker and the order that the worker performs the work in. When you select this option, you can click <strong>System-directed work</strong> on the Action Pane to open the <strong>System-directed sorting order</strong> page, where you can set up sorting criteria for the work. The sorting criteria control the order that the worker performs the work in. You can add as many criteria as you require.</td>
 </tr>
 <tr class="odd">
 <td>User directed</td>
@@ -229,7 +241,7 @@ In addition to setting up menu items to create warehouse work, you can set up me
 </tr>
 <tr class="odd">
 <td>System grouping</td>
-<td>Microsoft Dynamics 365 for Finance and Operations groups work for the worker, based on a specified field. For example, picking work is grouped when a worker scans a shipment ID, load ID, or any value that can link each work unit. If you select this option, the following fields are required:
+<td>FSupply Chain Management groups work for the worker, based on a specified field. For example, picking work is grouped when a worker scans a shipment ID, load ID, or any value that can link each work unit. If you select this option, the following fields are required:
 <ul>
 <li><strong>System grouping field</strong> – Select the field that the worker scans to group the work.</li>
 <li><strong>System grouping label</strong> – Enter text to instruct the worker what to scan to group the work.</li>
@@ -250,7 +262,7 @@ This option is useful when, for example, multiple pallets are staged for a load.
 </tr>
 <tr class="even">
 <td>Cycle count grouping</td>
-<td>The worker selects a zone, work pool, or location, and Microsoft Dynamics 365 for Finance and Operations assigns work, based on the selection. If you select this option, you can click <strong>Cycle counting</strong> on the Action pane to specify additional information to display, and you can also specify the number of times that the worker must repeat the count if a difference is found.</td>
+<td>The worker selects a zone, work pool, or location, and Supply Chain Management assigns work, based on the selection. If you select this option, you can click <strong>Cycle counting</strong> on the Action Pane to specify additional information to display, and you can also specify the number of times that the worker must repeat the count if a difference is found.</td>
 </tr>
  <tr class="odd">
 <td>Transport loading</td>
@@ -338,7 +350,7 @@ The following table describes these options.
 </tr>
 <tr class="odd">
 <td>Group put away</td>
-<td>Select this option to group the put-away work. This option is available when the work was grouped either by the worker or by Microsoft Dynamics 365 for Finance and Operations. When the worker has finished all the picking work in the group, put-away work is created for the same group.</td>
+<td>Select this option to group the put-away work. This option is available when the work was grouped either by the worker or by Supply Chain Management. When the worker has finished all the picking work in the group, put-away work is created for the same group.</td>
 </tr>
 <tr class="even">
 <td>Inventory adjustment types</td>
@@ -371,11 +383,11 @@ The following table describes these options.
 </tr>
 <tr class="even">
 <td>System grouping field</td>
-<td>Select the field that determine how Microsoft Dynamics 365 for Finance and Operations will group picking work for workers. For example, if you select the <strong>ShipmentId</strong> field, the worker will scan the shipment ID to group the picking work. All work for the shipment is then assigned to the worker. This field requires that you create a menu item to use existing work that is grouped by the system. You must also enter text in the <strong>System grouping label</strong> field to instruct the worker what to scan.</td>
+<td>Select the field that determine how Supply Chain Management will group picking work for workers. For example, if you select the <strong>ShipmentId</strong> field, the worker will scan the shipment ID to group the picking work. All work for the shipment is then assigned to the worker. This field requires that you create a menu item to use existing work that is grouped by the system. You must also enter text in the <strong>System grouping label</strong> field to instruct the worker what to scan.</td>
 </tr>
 <tr class="odd">
 <td>System grouping label</td>
-<td>Enter the text that will instruct the worker what to scan when picking work is grouped by Microsoft Dynamics 365 for Finance and Operations. For example, if you&#39;re using the <strong>ShipmentId</strong> field to group picking work by shipment, you might enter <strong>Shipment ID</strong> in the field. This field requires that you create a menu item to use existing work that is grouped by the system. You must also select the field to group by in the <strong>System grouping field</strong> field.</td>
+<td>Enter the text that will instruct the worker what to scan when picking work is grouped by Supply Chain Management. For example, if you&#39;re using the <strong>ShipmentId</strong> field to group picking work by shipment, you might enter <strong>Shipment ID</strong> in the field. This field requires that you create a menu item to use existing work that is grouped by the system. You must also select the field to group by in the <strong>System grouping field</strong> field.</td>
 </tr>
 <tr class="even">
 <td>Use default data</td>
@@ -391,13 +403,13 @@ The following table describes these options.
 </tr>
 <tr class="odd">
 <td>Work template code</td>
-<td>Select the work template that will create the work for a process. For example, if you receive an item for a purchase order, the put-away work will be generated based on the work template. If you don&#39;t select a work template, Microsoft Dynamics 365 for Finance and Operations assigns a template, based on query criteria. For more information on work templates, see <a href="control-warehouse-location-directives.md">Controlling warehouse work with work templates and location directives</a>.</td>
+<td>Select the work template that will create the work for a process. For example, if you receive an item for a purchase order, the put-away work will be generated based on the work template. If you don&#39;t select a work template, Supply Chain Management assigns a template, based on query criteria. For more information on work templates, see <a href="control-warehouse-location-directives.md">Controlling warehouse work with work templates and location directives</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## Require workers to confirm the product, location, or quantity when they pick items
-You can set up work confirmations that require that a worker use a mobile device to register the location or quantity when he or she performs work in the warehouse. Work confirmations help guarantee that the worker is at the correct location or is handling the correct quantity of items. You can also enable Microsoft Dynamics 365 for Finance and Operations to automatically confirm the worker’s registration. If you enable automatic confirmation, you can't also require confirmations for location or quantity. Work confirmations also include products and product variants. Additionally, you can register confirmations by scanning a bar code. To confirm products and product variants, you must enter an ID for the product or product variant. This ID can be a product ID, product search ID, external ID, GTIN, or bar code. After you enter the ID or scan the bar code, the dimensions for the product variant are displayed on the mobile device. 
+You can set up work confirmations that require that a worker use a mobile device to register the location or quantity when he or she performs work in the warehouse. Work confirmations help guarantee that the worker is at the correct location or is handling the correct quantity of items. You can also enable Supply Chain Management to automatically confirm the worker’s registration. If you enable automatic confirmation, you can't also require confirmations for location or quantity. Work confirmations also include products and product variants. Additionally, you can register confirmations by scanning a bar code. To confirm products and product variants, you must enter an ID for the product or product variant. This ID can be a product ID, product search ID, external ID, GTIN, or bar code. After you enter the ID or scan the bar code, the dimensions for the product variant are displayed on the mobile device. 
 
 The following table describes the various work types that you can use work confirmations with.
 
@@ -418,11 +430,10 @@ The following table describes the various work types that you can use work confi
 Additional resources
 --------
 
-[Warehouse mobile device display settings](change-warehouse-mobile-device-displays.md)
+[Set up a mobile device menu item for completing work of type Purchase order](tasks/set-up-mobile-device-menu.md)
 
-[Set up a mobile device menu item for completing work of type Purchase order (Task guide)](tasks/set-up-mobile-device-menu.md)
+[Set up a mobile device menu item to register received items](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 
-[Set up a mobile device menu item to register received items (Task guide)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-[Advantages of using Inventory statuses](../inventory/inventory-statuses.md)
+[Inventory statuses](../inventory/inventory-statuses.md)
 
 

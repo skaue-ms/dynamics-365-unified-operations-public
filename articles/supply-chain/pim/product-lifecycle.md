@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Product lifecycle state
+title: Product lifecycle state overview
 description: A product lifecycle state documents the lifecycle state of a released product or product variant.  
 author: cvocph
-manager: AnnBe
-ms.date: 12/08/2017
+manager: tfehr
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleState
 # ROBOTS: 
 audience: Application User, IT Pro
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -30,7 +30,7 @@ ms.search.validFrom: 2017-12-31
 
 ---
 
-# Product lifecycle state 
+# Product lifecycle state overview
 
 [!include [banner](../includes/banner.md)]
 
@@ -86,12 +86,8 @@ working with non-reusable product configuration variants, with a product lifecyc
 
 ## Default migration, import, and export 
 
-The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the 
-released product data entities.
-
--  On migration from previous releases, the lifecycle state of all products and product variants will be blank.  
--  When importing released products through a data entity, the default lifecycle state will be applied on creation.  
--  When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.   
+The product lifecycle states are supported by data entities, and the lifecycle state can be set to a variable state through either the 
+released product data entity or the released variant data entity.
 
 ## Find obsolete products and products variants 
 
@@ -120,9 +116,9 @@ Use the following criteria to select and update the released products and produc
 
 ## Related topics
 
--  [Create a new product lifecycle state (Task guide)](tasks/new-product-lifecycle-state.md)
--  [Create a default product lifecycle state (Task guide)](tasks/default-product-lifecycle-state.md)
--  [Assign a product lifecycle state to a released product master (Task guide)](tasks/product-lifecycle-state-released-product-master.md)
--  [Assign a product lifecycle state to a released product (Task guide)](tasks/product-lifecycle-state-released-product.md)
--  [Find obsolete product variants and assign a product lifecycle state (Task guide)](tasks/obsolete-product-variants.md)
--  [Create a product lifecycle state to exclude products from Master planning (Task guide)](tasks/exclude-products-master-planning.md)
+-  [Create a new product lifecycle state](tasks/new-product-lifecycle-state.md)
+-  [Create a default product lifecycle state](tasks/default-product-lifecycle-state.md)
+-  [Assign a product lifecycle state to a released product master](tasks/product-lifecycle-state-released-product-master.md)
+-  [Assign a product lifecycle state to a released product](tasks/product-lifecycle-state-released-product.md)
+-  [Find obsolete product variants and assign a product lifecycle state](tasks/obsolete-product-variants.md)
+-  [Create a product lifecycle state to exclude products from Master planning](tasks/exclude-products-master-planning.md)

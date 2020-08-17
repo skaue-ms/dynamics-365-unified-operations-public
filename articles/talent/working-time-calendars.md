@@ -2,8 +2,8 @@
 # required metadata
 
 title: Working time calendars
-description: This topic describes working time calendars in Dynamics 365 for Talent -- Core HR as well as how to set up calendars.
-author: jcart1106
+description: This topic describes working time calendars in Dynamics 365 Human Resources as well as how to set up calendars.
+author: andreabichsel
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
@@ -17,22 +17,20 @@ ms.search.form:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 # ms.tgt_pltfrm: 
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 
 ---
 
 # Working time calendars
-
-[!include [banner](includes/banner.md)]
 
 The working time calendar enables you to create a calendar with the hours and days that employees work in your organization. Calendars streamline the time off request process by default in the hours or days. When an employee submits a time off request, they don't have to worry about holidays and closures, which is handled for them through the working time calendar.
 

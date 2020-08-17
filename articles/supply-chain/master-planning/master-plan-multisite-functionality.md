@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Master planning and multisite functionality
+title: Master planning and multisite functionality overview
 description: Master planning takes the settings of the site and warehouse inventory dimensions into account. 
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 06/20/2017
+manager: tfehr
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: InventLocation, InventSite
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 2434
@@ -30,7 +30,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ---
 
-# Master planning and multisite functionality
+# Master planning and multisite functionality overview
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,15 +44,15 @@ When the warehouse is not set to mandatory, it may not be known from the initial
 
 The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.
 
-[Master planning - site and warehouse coverage, warehouse mandatory](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Master planning for site and warehouse coverage, warehouse mandatory](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Master planning - site coverage, warehouse mandatory](master-plan-site-coverage-warehouse-mandatory.md)
+[Master planning for site coverage, mandatory warehouse](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Master planning - site and warehouse coverage, warehouse not mandatory](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Master planning for site and warehouse coverage, warehouse not mandatory](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Master planning - site coverage, warehouse not mandatory](master-plan-site-coverage-warehouse-not-mandatory.md)
+[Master planning for site coverage, warehouse not mandatory](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Master planning - How the BOM version is determined](master-plan-bom-version-determined.md)
+[Determine the BOM version](master-plan-bom-version-determined.md)
 
 
 

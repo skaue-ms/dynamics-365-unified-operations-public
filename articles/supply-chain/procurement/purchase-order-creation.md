@@ -3,8 +3,8 @@
 
 title: Create purchase orders
 description: This article describes the process and options when you manually create a purchase order.
-author: FrankDahl
-manager: AnnBe
+author: mkirknel
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: PurchTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 
 ms.search.scope: Core, Operations, Retail
 # ms.tgt_pltfrm: 
@@ -25,7 +25,7 @@ ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
@@ -34,8 +34,6 @@ ms.dyn365.ops.version: AX 7.0.0
 # Create purchase orders
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 This article describes the process and options when you manually create a purchase order.
 
@@ -96,11 +94,11 @@ Additional resources
 
 [Purchase order overview](purchase-order-overview.md)
 
-[Purchase order approval and confirmation](purchase-order-approval-confirmation.md)
+[Approve and confirm purchase orders](purchase-order-approval-confirmation.md)
 
 [Product receipt against purchase orders](product-receipt-against-purchase-orders.md)
 
-[Overview of vendor invoices](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Vendor invoices overview](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

@@ -4,7 +4,7 @@
 title: Purchase requisition overview
 description: This topic describes the purchase requisition workflow and the different statuses that a purchase requisition can have.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetail
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 2174
@@ -43,7 +43,7 @@ After a purchase requisition is approved, it can be used to generate a purchase 
 ## Creating purchase requisitions
 You can create a purchase requisition on the **My purchase requisitions** page, and select the items and services that you require. You can select items from a procurement catalog that your organization has created, or you can request items that aren't found in a catalog by selecting a procurement category and entering the product details.  
 
-Before you can submit a purchase requisition for review, workflows must be configured in Microsoft Dynamics 365 for Finance and Operations. You use a workflow to move a purchase requisition through the review process, from an initial status of **Draft** to a final status of **Approved**.
+Before you can submit a purchase requisition for review, workflows must be configured. You use a workflow to move a purchase requisition through the review process, from an initial status of **Draft** to a final status of **Approved**.
 
 ### Purchase requisition statuses
 
@@ -86,7 +86,7 @@ The overall status of a purchase requisition is determined by the status of the 
 <li><strong>In review</strong> – The purchase requisition lines have been submitted for review. When the workflow process is completed for a purchase requisition line, the status of that line remains <strong>In review</strong> until all remaining purchase requisition lines have been reviewed.</li>
 <li><strong>Rejected</strong> – A purchase requisition line has been rejected. Purchase requisition lines that are rejected can be modified and resubmitted.</li>
 </ul>
-If you resubmit a purchase requisition line that has been rejected, the review process starts over for all lines in the purchase requisition that are still in review. <strong>Note:</strong> You can recall a purchase requisition that has already been submitted. When you recall a purchase requisition, all other purchase requisition lines are also recalled. Purchase requisition lines that have been recalled can be deleted.</td>
+If you resubmit a purchase requisition line that has been rejected, the review process starts over for all lines in the purchase requisition that are still in review. </br><strong>Note:</strong> You can recall a purchase requisition that has already been submitted. When you recall a purchase requisition, all other purchase requisition lines are also recalled. Purchase requisition lines that have been recalled can be deleted.</td>
 </tr>
 <tr class="odd">
 <td>Rejected</td>
@@ -114,7 +114,7 @@ If you resubmit a purchase requisition line that has been rejected, the review p
 <tr class="odd">
 <td>Cancelled</td>
 <td>Cancelled</td>
-<td>The purchase requisition and all purchase requisition lines have been canceled. <strong>Note:</strong> If you no longer require an item that is on a purchase requisition line, you must cancel the purchase requisition line if it has already been approved. Only purchase requisition lines that have been approved can be canceled. If any purchase requisition lines are in review, the purchase requisition will have a status of <strong>In review</strong>. In this case, you can recall the purchase requisition and delete the appropriate purchase requisition line.</td>
+<td>The purchase requisition and all purchase requisition lines have been canceled.</br> <strong>Note:</strong> If you no longer require an item that is on a purchase requisition line, you must cancel the purchase requisition line if it has already been approved. Only purchase requisition lines that have been approved can be canceled. If any purchase requisition lines are in review, the purchase requisition will have a status of <strong>In review</strong>. In this case, you can recall the purchase requisition and delete the appropriate purchase requisition line.</td>
 </tr>
 <tr class="even">
 <td>Closed</td>
@@ -146,7 +146,7 @@ In the procurement policies, you can control the requisition purposes that are a
 
 ### Requisitions that have a purpose of consumption
 
-A requisition that has a purpose of consumption represents demand for items or services that will be used internally by your organization. The demand that is created by this kind of requisition is always fulfilled by a purchase order. If Microsoft Dynamics 365 for Finance and Operations is set up to automatically generate purchase orders, purchase orders are created after the purchase requisition is approved.
+A requisition that has a purpose of consumption represents demand for items or services that will be used internally by your organization. The demand that is created by this kind of requisition is always fulfilled by a purchase order. If Supply Chain Management is set up to automatically generate purchase orders, purchase orders are created after the purchase requisition is approved.
 
 ### Requisitions that have a purpose of replenishment
 
@@ -161,7 +161,8 @@ In some cases, you must start a request for quotation (RFQ) process to identify 
 
 You can put a purchase requisition on hold by selecting the **On hold** check box on the **Purchase requisition details** page. Processing of the purchase requisition can continue only after you remove the hold by clearing the check box.  
 
-**Note:** In eProcurement, the RFQ for your purchase requisition might allow vendors to add alternate lines. In this case, your purchase requisition will reflect approved alternates.
+> [!NOTE]
+> In eProcurement, the RFQ for your purchase requisition might allow vendors to add alternate lines. In this case, your purchase requisition will reflect approved alternates.
 
 ## Demand consolidation
 By consolidating purchase requisition lines from multiple purchase requisitions, you can increase your negotiating power with your vendors to achieve better pricing, lower shipping and handling costs, and reduced overhead costs.  
@@ -177,7 +178,8 @@ A consolidation opportunity is a set of purchase requisition lines that are grou
 
 After you add requisition lines to a consolidation opportunity and make any changes that you require, you can create a purchase order for the consolidated purchase requisition lines.  
 
-**Note:** Changes that you make to a purchase requisition line on the **Purchase requisition consolidation** page are reflected on the purchase order that you create. However, the line remains unchanged in the purchase requisition, so that its history is preserved.  
+> [!NOTE]
+> Changes that you make to a purchase requisition line on the **Purchase requisition consolidation** page are reflected on the purchase order that you create. However, the line remains unchanged in the purchase requisition, so that its history is preserved.  
 
 To create a purchase order for purchase requisition lines that aren't eligible for demand consolidation or aren't selected for a consolidation opportunity, you must process the lines manually.
 
@@ -199,7 +201,7 @@ To consolidate approved purchase requisition lines, follow these steps:
 Additional resources
 --------
 
-[Create a requisition for consumption (Task guide)](tasks/create-requisition-consumption.md)
+[Create a requisition for consumption](tasks/create-requisition-consumption.md)
 
 [Purchase requisition workflow](purchase-requisitions-workflow.md)
 

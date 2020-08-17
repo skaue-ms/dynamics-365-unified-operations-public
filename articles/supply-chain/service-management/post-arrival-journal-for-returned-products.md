@@ -4,7 +4,7 @@
 title: Post arrival journal for returned products 
 description: Post arrival journal for returned products.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: WMSArrivalOverview
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -58,7 +58,7 @@ After the journal is posted, the returned items are registered in inventory, and
 
 ## See also
 
-[Location journal (form)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))
+[Location journal (form)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))
 
   
 

@@ -4,7 +4,7 @@
 title: Master planning for site coverage, warehouse not mandatory
 description: This topic describes how an item that has the site dimension set for coverage is planned.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 2474
@@ -55,15 +55,15 @@ The following graphic illustrates how master planning proceeds. The parameters t
 Additional resources
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Master planning and multisite functionality overview](master-plan-multisite-functionality.md)
 
-[Master planning - site coverage, warehouse mandatory](master-plan-site-coverage-warehouse-mandatory.md)
+[Master planning for site and warehouse coverage, warehouse mandatory](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Master planning - site and warehouse coverage, warehouse not mandatory](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Master planning for site coverage, mandatory warehouse](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Master planning - site and warehouse coverage, warehouse mandatory](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Master planning for site coverage, warehouse not mandatory](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Master planning - how the BOM version is determined](master-plan-bom-version-determined.md)
+[Determine the BOM version](master-plan-bom-version-determined.md)
 
 
 

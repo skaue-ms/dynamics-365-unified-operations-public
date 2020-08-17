@@ -4,7 +4,7 @@
 title: Create service orders automatically   
 description: You can create service orders for one service agreement or for several service agreements.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMAServiceOrderTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -70,7 +70,7 @@ When you create service orders manually or automatically from the service agreem
 
 [Service orders](service-orders.md)
 
-[Automatically creating service orders](auto-create-service-orders.md)
+[Automatically create service orders](auto-create-service-orders.md)
 
   
 

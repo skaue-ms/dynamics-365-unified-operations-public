@@ -4,7 +4,7 @@
 title: Monitor service activities  
 description: The Dispatch board form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/04/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMADispatchBoard
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -60,7 +60,7 @@ Click **Service management** \> **Periodic** \> **Dispatch board**.
 
 [View the status of service orders](view-the-status-of-service-orders.md)
 
-[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
+[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
   
 

@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Create a process template in Attract
-description: This topic provides information about how to create a process template in Attract.
-author: hasrivas
+title: Create a hiring process template in Attract
+description: This topic provides information about how to create a hiring process template in Attract.
+author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
@@ -17,24 +17,24 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Talent
 # ms.tgt_pltfrm: 
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: hasrivas
+ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
 
 ---
 
-# Create a process template in Attract
+# Create a hiring process template in Attract
 
 [!include [banner](includes/banner.md)]
 
-A *hiring process template* contains all the activities that should be included as part of the hiring process for a job. This topic describes the elements of a process template in Microsoft Dynamics 365 for Talent: Attract. It also explains how to create a template.
+A *hiring process template* contains all the activities that should be included as part of the hiring process for a job. This topic describes the elements of a process template in Microsoft Dynamics 365 Talent: Attract. It also explains how to create a template.
 
 > [!NOTE]
 > Template creation is part of the Comprehensive Hiring Add-on for Attract.
@@ -49,12 +49,12 @@ Only admins can set the default template. The default template is used if a temp
 
 ## Create a process template
 
-Admins, recruiters, and hiring managers can create process templates. A process template consists of *stages* and *activities*. Stages group together one or more activities. By default, every process template has Prospect, Application, and Offer activities. The stages that contain these activities can be renamed. You can add more stages by selecting **+ New Stage**. You can activities to a stage either by dragging them to the appropriate stage or by double-clicking them in the activity list.
+Admins, recruiters, and hiring managers can create process templates. A process template consists of *stages* and *activities*. Stages group together one or more activities. By default, every process template has Prospect, Application, and Offer activities. The stages that contain these activities can be renamed. You can add more stages by selecting **+ New Stage**. You can add activities to a stage either by dragging them to the appropriate stage or by double-clicking them in the activity list.
 
 > [!NOTE]
 > Stage names are visible to candidates on the **Application status** page. You should consider this fact when you choose names for stages.
 
-To learn more about activities, see [Hiring process activities in Attract](./activities-attract.md).
+To learn more about activities, see [Activities in hiring processes](./activities-attract.md).
 
 Follow these steps to create a hiring process template.
 

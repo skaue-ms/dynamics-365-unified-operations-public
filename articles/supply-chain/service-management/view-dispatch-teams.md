@@ -4,7 +4,7 @@
 title: View dispatch teams  
 description: View dispatch teams.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMADispatchBoard
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -52,7 +52,7 @@ For information about how to assign a worker to a team, see [Set up a preferred 
 
 [Monitor service activities](monitor-service-activities.md)
 
-[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
+[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
   
 

@@ -4,7 +4,7 @@
 title: Set up service activity types 
 description: Set up service activity types. 
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: smmActivityTypeGroup
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -51,7 +51,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ## See also
 
-[Activity types (form)](https://technet.microsoft.com/en-us/library/aa583718\(v=ax.60\))
+[Activity types (form)](https://technet.microsoft.com/library/aa583718\(v=ax.60\))
 
 [Dispatch board](dispatch-board.md)
 

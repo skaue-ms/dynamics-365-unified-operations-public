@@ -4,7 +4,7 @@
 title: Authorize an adjusted forecast
 description: Not all forecast data must be authorized immediately. This article explains how you can specify the period that a forecast is authorized for. It also explains how you can authorize the forecast for specific companies and forecast models.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: ReqDemPlanImportForecastDialog
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 72734
@@ -49,9 +49,9 @@ It's very important that you understand how the **Save the manual adjustments ma
 Additional resources
 --------
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Make manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Monitor forecast accuracy](monitor-forecast-accuracy.md)
 
 
 

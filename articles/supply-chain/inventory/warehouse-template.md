@@ -4,7 +4,7 @@
 title: Set up a warehouse by using a warehouse configuration template
 description: This topic explains how to set up a warehouse by using a warehouse configuration template.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod:
@@ -16,7 +16,7 @@ ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefini
 # ROBOTS:
 audience: Application User
 # ms.devlang:
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm:
 ms.custom: 
@@ -96,7 +96,7 @@ You can download a zip file for the data package. This file contains all the dat
 
 The **View execution** log provides detailed information about each data entity that is imported. You can use the staging data view to quickly get to the target data. In this way, you can see what the imported data looks like on the related pages in the application. When you use the default data templates, the import sequence for each data entity works in the predefined manner, to help guarantee that all dependent data is imported first. If custom data entities are part of the project, you must make sure that the correct sequence is defined. For more information, see [Configuration data templates](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-To learn more about how to use warehouse template to copy the configuration of a warehouse from one company to a new company within the same instance, see this 3-minute video on YouTube: [Use warehouse template to copy configuration in Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+To learn more about how to use warehouse template to copy the configuration of a warehouse from one company to a new company within the same instance, see this 3-minute video on YouTube about [how to use warehouse template to copy the configuration for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## Related topic
 

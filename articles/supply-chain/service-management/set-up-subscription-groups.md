@@ -4,7 +4,7 @@
 title: Set up subscription groups  
 description: Set up subscription groups.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMASubscriptionGroup
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -46,7 +46,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ## See also
 
-[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))
+[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))
 
 [Subscription groups](subscription-groups.md)
 

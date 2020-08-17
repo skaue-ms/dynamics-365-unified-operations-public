@@ -4,7 +4,7 @@
 title: Nonconformance management
 description: This article describes the basic setup that is required in order to use nonconformances. Additional setup is required if you want to use quality orders.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod:
@@ -17,7 +17,7 @@ ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, Inv
 # ROBOTS:
 audience: Application User
 # ms.devlang:
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm:
 ms.custom: 28951
@@ -54,8 +54,8 @@ To enable nonconformance management, follow these steps:
 Additional resources
 --------
 
-[Create and process a non conformance (Task guide)](tasks/create-process-non-conformance.md)
+[Create and process a conformance](tasks/create-process-non-conformance.md)
 
 [Quality management processes](quality-management-processes.md)
 
-[Set up prerequisites for non-conformance management (Task guide)](tasks/set-up-prerequisites-nonconformance-management.md)
+[Set up prerequisites for nonconformance management](tasks/set-up-prerequisites-nonconformance-management.md)

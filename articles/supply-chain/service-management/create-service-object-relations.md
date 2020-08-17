@@ -4,7 +4,7 @@
 title: Create service object relations   
 description: This topic describes how to create service object relations for a service agreement and a service order.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -67,9 +67,9 @@ Use the following steps to create a service object relation for a service order:
 
 ## See also
 
-[Service objects](service-objects.md)
+[Service objects overview](service-objects.md)
 
-[service object relations](service-object-relations.md)
+[Service object relations](service-object-relations.md)
 
 [Template BOMs](template-boms.md)
 

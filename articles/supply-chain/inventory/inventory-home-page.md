@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Inventory management home page
+title: Inventory management overview
 description: This topic provides an overview of Inventory management.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 10/23/2017
+manager: tfehr
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod:
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: InventParameters
 # ROBOTS:
 audience: Application User
 # ms.devlang:
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm:
 ms.custom: 2094
@@ -30,7 +30,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ---
 
-# Inventory management 
+# Inventory management overview
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,13 +55,11 @@ The following learning map shows the major concepts and tasks that make up the f
 Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.
 
 ### Inventory accounting 
-To learn more, see [Inventory accounting in Cost management](../cost-management/inventory-close.md).
+To learn more, see [Inventory close](../cost-management/inventory-close.md).
 
-### Manufacturing and supply chain management blogs
+### Manufacturing and Supply Chain Management blogs
 You can find opinions, news, and other information about Inventory management and other solutions on the
 [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### Task guides
-Additional help is available as task guides inside Finance and Operations. To access task guides, click the **Help** button on any page.
-
-
+Additional help is available as task guides. To access task guides, click the **Help** button on any page

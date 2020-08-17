@@ -4,7 +4,7 @@
 title: Explosion of a BOM version
 description: This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: ReqTransExplosion
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 19211
@@ -46,9 +46,9 @@ The following illustration shows how the process for master planning demand expl
 Additional resources
 --------
 
-[Master planning - how the BOM version is determined](master-plan-bom-version-determined.md)
+[Determine the BOM version](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Master planning and multisite functionality overview](master-plan-multisite-functionality.md)
 
 
 

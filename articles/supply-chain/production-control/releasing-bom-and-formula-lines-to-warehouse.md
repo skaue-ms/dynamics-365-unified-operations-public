@@ -4,7 +4,7 @@
 title: Release BOM and formula lines to the warehouse
 description: This topic describes the process for releasing raw material for BOM lines and formula lines to the warehouse.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SysOperationTemplateForm
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 1705903
@@ -35,7 +35,7 @@ ms.dyn365.ops.version: 7.3
 This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse. When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.
 
 - If the material is available at the production input location, it's picked from that location immediately after the signal is given for the release of material to the warehouse.
-- If the material isn't available at the production input location, the material release indicates that material must be moved from locations in the warehouse to the production input location. The material is moved via warehouse work for raw material picking. Therefore, warehouse processes for raw material picking must be configured. For more information, see [Replenishment](../warehousing/replenishment.md) and [Control warehouse work by using work templates and location directives](../warehousing/control-warehouse-location-directives.md).
+- If the material isn't available at the production input location, the material release indicates that material must be moved from locations in the warehouse to the production input location. The material is moved via warehouse work for raw material picking. Therefore, warehouse processes for raw material picking must be configured. For more information, see [Replenishment overview](../warehousing/replenishment.md) and [Control warehouse work by using work templates and location directives](../warehousing/control-warehouse-location-directives.md).
 
 ## Methods for releasing BOM and formula lines
 
@@ -88,8 +88,8 @@ The following illustration shows a production order that has two operations, 10 
 
 ![Example of the release of material per operation number](media/two-operations.PNG)
 
-For a quick demonstration of how to release material in proportion to the amount of finished goods, watch this short YouTube video:
-[Enhancements to the production order release process in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
+For a quick demonstration of how to release material in proportion to the amount of finished goods, watch this short YouTube video about 
+[enhancements to the production order release process](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
 ### Release material in proportion to the amount of finished goods
 

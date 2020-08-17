@@ -4,7 +4,7 @@
 title: Quality management processes
 description: This article provides information about the quality management process for nonconforming products. It describes how you can use quality control functionality, how to define and maintain nonconformances, and how to handle corrections.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod:
@@ -17,7 +17,7 @@ ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConfor
 # ROBOTS:
 audience: Application User
 # ms.devlang:
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm:
 ms.custom: 11574
@@ -95,14 +95,14 @@ It's a good idea to define a unique document type for corrections by using the *
 Additional resources
 --------
 
-[Enabling quality management](enable-quality-management.md)
+[Quality management overview](enable-quality-management.md)
 
-[Enabling nonconformance management](enable-nonconformance-management.md)
+[Nonconformance management](enable-nonconformance-management.md)
 
 [Inventory blocking](inventory-blocking.md)
 
 [Quarantine orders](quarantine-orders.md)
 
-[Set up quality orders (Task guide)](tasks/set-up-quality-orders.md)
+[Set up quality orders](tasks/set-up-quality-orders.md)
 
-[Inspect the quality of goods (Task guide)](tasks/inspect-quality-goods.md)
+[Inspect the quality of goods](tasks/inspect-quality-goods.md)

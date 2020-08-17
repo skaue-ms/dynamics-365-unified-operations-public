@@ -4,7 +4,7 @@
 title: Update and index subscription sales prices 
 description: Update and index subscription sales prices 
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMASubscriptionTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -55,7 +55,7 @@ The base price or index of the subscription is updated with the specified value.
 
 ## See also
 
-[Index subscription (class form)](https://technet.microsoft.com/en-us/library/aa558579\(v=ax.60\))
+[Index subscription (class form)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))
 
   
 

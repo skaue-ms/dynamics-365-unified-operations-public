@@ -4,7 +4,7 @@
 title: Start and stop time recording on a service order 
 description: Start and stop time recording on a service order.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMAServiceOrderTable
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -62,9 +62,9 @@ Use this procedure to start and stop time recording for a service order for whic
 
 ## See also
 
-[Start SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))
+[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))
 
-[Stop SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))
+[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))
 
   
 

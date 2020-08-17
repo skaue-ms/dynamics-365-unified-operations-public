@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Dimension-based product configuration
+title: Dimension-based product configuration overview
 description: Dimension-based product configuration represents a simple solution for creating many product variants from a single product master and its bill of materials.
 author: cvocph
-manager: AnnBe
-ms.date: 11/03/2017
+manager: tfehr
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,7 +17,7 @@ ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, Con
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 19821
@@ -30,7 +30,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ---
 
-# Dimension-based product configuration
+# Dimension-based product configuration overview
 
 [!include [banner](../includes/banner.md)]
 
@@ -83,12 +83,12 @@ The dimension-based configuration technology is best used for products with limi
 
 The following eight task guides are listed in the order in which you should complete them. 
 
-1.  [Create a dimension-based product master (Task guide)](tasks/create-dimension-based-product-master.md)
-2.  [Release a dimension-based product master (Task guide)](tasks/release-dimension-based-product-master.md)
-3.  [Complete basic setup of a released product master (Task guide)](tasks/complete-basic-setup-released-product-master.md)
-4.  [Define configuration groups (Task guide)](tasks/define-configuration-groups.md)
-5.  [Create a bill of materials for a dimension-based product master (Task guide)](tasks/create-bill-materials-dimension-based-product-master.md)
-6.  [Define configuration routes (Task guide)](tasks/define-configuration-route.md)
-7.  [Create configuration rules (Task guide)](tasks/create-configuration-rules.md)
-8.  [Create dimension-based configurations (Task guide)](tasks/create-dimension-based-configurations.md)
+1.  [Create a dimension-based product master](tasks/create-dimension-based-product-master.md)
+2.  [Release a dimension-based product master](tasks/release-dimension-based-product-master.md)
+3.  [Complete basic setup of a released product master](tasks/complete-basic-setup-released-product-master.md)
+4.  [Define configuration groups](tasks/define-configuration-groups.md)
+5.  [Create a bill of materials for a dimension-based product master](tasks/create-bill-materials-dimension-based-product-master.md)
+6.  [Define configuration routes](tasks/define-configuration-route.md)
+7.  [Create configuration rules](tasks/create-configuration-rules.md)
+8.  [Create dimension-based configurations](tasks/create-dimension-based-configurations.md)
 

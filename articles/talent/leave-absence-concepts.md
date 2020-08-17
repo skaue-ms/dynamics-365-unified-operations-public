@@ -3,7 +3,7 @@
 
 title: Leave and absence concepts
 description: This topic describes leave and absence concepts, and how time-off balances are determined. 
-author: jcart
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
@@ -16,20 +16,18 @@ ms.technology:
 # ms.search.form: LeaveAbsenceWorkspace
 audience: Application user
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 # ms.tgt_pltfrm: 
 # ms.custom: 
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: 
 ---
 
 # Leave and absence concepts
-
-[!include[banner](../includes/banner.md)]
 
 The concepts and terms that are described in this topic can help you determine how an employee is awarded time off, and how that employee's time balances are calculated. For more information about leave and absence management, see 
 [Leave and absence management](https://docs.microsoft.com/dynamics365/unified-operations/talent/leave-absence-overview).

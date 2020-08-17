@@ -4,7 +4,7 @@
 title: Product configuration models overview
 description: This article defines terms and concepts that are relevant to product configuration models. Product configuration models let you build a generic product structure that can be used to configure many product variants for a single product.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelL
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 4031
@@ -123,7 +123,7 @@ If the attribute type is <strong>Boolean</strong>, <strong>Integer</strong> with
 </tr>
 </tbody>
 </table>
-A system-defined table constraint represents a mapping between an attribute type and a field in a Finance and Operations table. A system-defined table constraint dynamically links the attribute type to the field. The link enables the attribute in a product configuration model to reflect the data of the field in the Finance and Operations table.</td>
+A system-defined table constraint represents a mapping between an attribute type and a field in a Supply Chain Management table. A system-defined table constraint dynamically links the attribute type to the field. The link enables the attribute in a product configuration model to reflect the data of the field in the Supply Chain Management table.</td>
 </tr>
 <tr class="odd">
 <td>Calculations</td>

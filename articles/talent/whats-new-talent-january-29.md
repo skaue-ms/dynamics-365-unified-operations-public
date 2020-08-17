@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: What's new or changed in Dynamics 365 for Talent (January 31, 2019)
-description: This topic describes features that are either new or changed in Microsoft Dynamics 365 for Talent.
+title: What's new or changed in Dynamics 365 Talent (January 31, 2019)
+description: This topic describes features that are either new or changed in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/31/2019
@@ -17,7 +17,7 @@ ms.search.form:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -29,11 +29,9 @@ ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
 
 ---
-# What's new or changed in Dynamics 365 for Talent (January 31, 2019)
+# What's new or changed in Dynamics 365 Talent (January 31, 2019)
 
-[!include [banner](includes/banner.md)]
-
-This topic describes features that are either new or changed in Dynamics 365 for Talent
+This topic describes features that are either new or changed in Dynamics 365 Talent.
 
 **Build 8.1.2128**
 

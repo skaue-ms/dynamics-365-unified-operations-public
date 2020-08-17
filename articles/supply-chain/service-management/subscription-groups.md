@@ -4,7 +4,7 @@
 title: Subscription groups 
 description: This topic outlines what is defined in subscription group.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: SMASubscriptionGroup
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -52,7 +52,7 @@ You can also complete the following tasks for all subscriptions that are attache
 
 ## See also
 
-[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))
+[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))
 
 [Set up subscription groups](set-up-subscription-groups.md)
 

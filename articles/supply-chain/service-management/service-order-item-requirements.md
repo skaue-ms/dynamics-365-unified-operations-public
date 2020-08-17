@@ -4,7 +4,7 @@
 title: Service order item requirements   
 description: If you need to reserve specific items for a service order, you can create inventory item requirements for it.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: ProjSalesItemReq
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -72,5 +72,5 @@ If an item requirement is created on a service order, you cannot delete the serv
 
 ## See also
 
-[Item requirements (form)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))
+[Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 

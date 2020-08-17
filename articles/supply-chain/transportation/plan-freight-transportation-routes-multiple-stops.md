@@ -2,9 +2,9 @@
 # required metadata
 
 title: Plan freight transportation routes with multiple stops
-description: This article describes the various elements that you use to plan transportation routes in Dynamics 365 for Finance and Operations.
+description: This article describes the various elements that you use to plan transportation routes in Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -17,7 +17,7 @@ ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSR
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 90013
@@ -34,7 +34,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 [!include [banner](../includes/banner.md)]
 
-This article describes the various elements that you use to plan transportation routes in Microsoft Dynamics 365 for Finance and Operations.
+This article describes the various elements that you use to plan transportation routes in Dynamics 365 Supply Chain Management.
 
 You can use route plans and route guides for complex transportation routes that have multiple stops. If the same route will be used on a regular basis, you can set up a scheduled route.
 
